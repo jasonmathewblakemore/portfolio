@@ -1,0 +1,59 @@
+body {
+  margin:0;
+  font-family: 'Niramit', Verdana;
+  font-size: 1.25rem;
+}
+
+header {
+  min-height: 100vh;
+  background-color: orange;
+}
+
+nav {
+  background-color: rgb(51,48,45);
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+header main {
+  padding-top: 4rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h1{
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.about-me {
+  padding: 2.5rem 0;
+  background-color: rgb(51,48,45);
+  color: white;
+  line-height: 1.5;
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.projects {
+  padding: 2.5rem 0;
+  background-color: rgb(220,220,220);
+}
+
+.projects img {
+  width: 30%;
+  padding: 10px 10px 10px 0;
+}
